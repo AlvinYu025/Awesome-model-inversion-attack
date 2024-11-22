@@ -20,6 +20,7 @@ Please star or watch this repository to keep tracking the latest updates! Contri
 - [Computer vision domain](#computer-vision-domain)
 - [Graph learning domain](#graph-learning-domain)
 - [Natural language processing domain](#natural-language-processing-domain)
+  - Language Model Inversion
   - Information Leakage in Embedding Models
   - Extracting Prompts by Inverting LLM Outputs
   - Canary Extraction in Natural Language Understanding Models
@@ -28,7 +29,6 @@ Please star or watch this repository to keep tracking the latest updates! Contri
   - Text Revealer: Private Text Reconstruction via Model Inversion Attacks against Transformers
   - Transferable Embedding Inversion Attack: Uncovering Privacy Risks in Text Embeddings without Model Queries
   - Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence
-  - Language Model Inversion
 - [Tools](#tools)
 - [Others](#others)
 - [Related repositories](#related-repositories)
