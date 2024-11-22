@@ -20,6 +20,15 @@ Please star or watch this repository to keep tracking the latest updates! Contri
 - [Computer vision domain](#computer-vision-domain)
 - [Graph learning domain](#graph-learning-domain)
 - [Natural language processing domain](#natural-language-processing-domain)
+  - Information Leakage in Embedding Models
+  - Canary Extraction in Natural Language Understanding Models
+  - Text Revealer: Private Text Reconstruction via Model Inversion Attacks against Transformers
+  - Text Embeddings Reveal (Almost) As Much As Text
+  - Text embedding inversion security for multilingual language models
+  - Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence
+  - Language Model Inversion
+  - Extracting Prompts by Inverting LLM Outputs
+  - Transferable Embedding Inversion Attack: Uncovering Privacy Risks in Text Embeddings without Model Queries
 - [Tools](#tools)
 - [Others](#others)
 - [Related repositories](#related-repositories)
@@ -537,22 +546,24 @@ ICML 2023 - On Strengthening and Defending Graph Reconstruction Attack with Mark
 | Year | Title | Adversarial Knowledge | Venue | Paper Link | Code Link |
 | ---- | ----- | -------------------- | ----- | ---------- | --------- |
 | 2020 | Extracting Training Data from Large Language Models |  black-box | USENIX Security | [Paper](https://arxiv.org/pdf/2012.07805.pdf) | [code](https://arxiv.org/pdf/2012.07805.pdf) |
-| 2020 | Privacy Risks of General-Purpose Language Models | black & white-box | S&P | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9152761) |  |
-| 2020 | Information Leakage in Embedding Models | black & white-box | CCS | [Paper](https://arxiv.org/pdf/2004.00053.pdf) |  |
-| 2021 | TAG: Gradient Attack on Transformer-based Language Models | white-box | EMNLP | [Paper](https://arxiv.org/pdf/2103.06819.pdf) |  |
-| 2021 | Dataset Reconstruction Attack against Language Models | black-box | CEUR workshop | [paper](https://ceur-ws.org/Vol-2942/paper1.pdf) |  |
+| 2020 | Privacy Risks of General-Purpose Language Models | black & white-box | S&P | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9152761) | - |
+| 2020 | Information Leakage in Embedding Models | black & white-box | CCS | [Paper](https://arxiv.org/pdf/2004.00053.pdf) | - |
+| 2021 | TAG: Gradient Attack on Transformer-based Language Models | white-box | EMNLP | [Paper](https://arxiv.org/pdf/2103.06819.pdf) | - |
+| 2021 | Dataset Reconstruction Attack against Language Models | black-box | CEUR workshop | [paper](https://ceur-ws.org/Vol-2942/paper1.pdf) | - |
 | 2022 | KART: Parameterization of Privacy Leakage Scenarios from Pre-trained Language Models | black-box | Arxiv | [paper](https://arxiv.org/pdf/2101.00036v1.pdf) | [code](https://github.com/yutanakamura-tky/kart) |
-| 2022 | Text Revealer: Private Text Reconstruction via Model Inversion Attacks against Transformers | white-box | Arxiv | [Paper](https://arxiv.org/pdf/2209.10505.pdf) |  |
-| 2022 | Canary Extraction in Natural Language Understanding Models | white-box | ACL | [paper](https://arxiv.org/pdf/2203.13920.pdf) |  |
+| 2022 | Text Revealer: Private Text Reconstruction via Model Inversion Attacks against Transformers | white-box | Arxiv | [Paper](https://arxiv.org/pdf/2209.10505.pdf) | - |
+| 2022 | Canary Extraction in Natural Language Understanding Models | white-box | ACL | [paper](https://arxiv.org/pdf/2203.13920.pdf) | - |
 | 2022 | Are Large Pre-Trained Language Models Leaking Your Personal Information?   | white-box | NAACL | [paper](https://aclanthology.org/2022.findings-emnlp.148.pdf) | [code](https://github.com/jeffhj/LM_PersonalInfoLeak) |
 | 2022 | Recovering Private Text in Federated Learning of Language Models | white-box | NeurIPS | [paper](https://arxiv.org/pdf/2205.08514.pdf) | [code](https://github.com/princeton-sysml/film) |
 | 2023 | Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence | black-box | ACL | [paper](https://arxiv.org/pdf/2305.03010.pdf) | [code](https://github.com/hkust-knowcomp/geia) |
-| 2023 | Deconstructing Classifiers: Towards A Data Reconstruction Attack Against Text Classification Models | white-box | Arxiv | [Paper](https://arxiv.org/pdf/2306.13789.pdf) |  |
+| 2023 | Deconstructing Classifiers: Towards A Data Reconstruction Attack Against Text Classification Models | white-box | Arxiv | [Paper](https://arxiv.org/pdf/2306.13789.pdf) | - |
 | 2023 | Model Inversion Attack with Least Information and an In-depth Analysis of its Disparate Vulnerability | black-box | SaTML | [Paper](https://openreview.net/pdf?id=x42Lo6Mkcrf) | - | 
 | 2023 | Text Embeddings Reveal (Almost) As Much As Text | black-box | EMNLP | [paper](https://arxiv.org/abs/2311.13647) | [code](https://github.com/jxmorris12/vec2text) |
-| 2024 | Extracting Prompts by Inverting LLM Outputs | black-box | arXiv | [paper](https://arxiv.org/pdf/2405.15012) | [code](https://github.com/collinzrj/output2prompt)) |
-| 2024 | Do Membership Inference Attacks Work on Large Language Models? | white-box | Arxiv | [Paper](https://arxiv.org/pdf/2402.07841.pdf) |  |
+| 2024 | Text embedding inversion security for multilingual language models | black-box | ACL | [paper](https://arxiv.org/abs/2401.12192) | [code](https://github.com/siebeniris/multivec2text) |
+| 2024 | Extracting Prompts by Inverting LLM Outputs | black-box | EMNLP | [paper](https://arxiv.org/pdf/2405.15012) | [code](https://github.com/collinzrj/output2prompt) |
+| 2024 | Do Membership Inference Attacks Work on Large Language Models? | white-box | Arxiv | [Paper](https://arxiv.org/pdf/2402.07841.pdf) | - |
 | 2024 | Language Model Inversion | black-box | ICLR | [paper](https://arxiv.org/abs/2311.13647) | [code](https://github.com/jxmorris12/vec2text) |
+| 2024 | Transferable Embedding Inversion Attack: Uncovering Privacy Risks in Text Embeddings without Model Queries | black-box | ACL | [paper](https://aclanthology.org/2024.acl-long.230/) | - |
 
 <!-- 
 USENIX Security 2020 - Extracting Training Data from Large Language Models
